@@ -1,0 +1,64 @@
+body{
+    
+    height: auto;
+}
+section{
+    background-color: whitesmoke;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+}
+section article{
+    display: inline-block;
+    
+}
+.bar{
+    width: 50px;
+    height: 300px;
+    background-color: gainsboro;
+    margin: 20px;
+}
+p{
+    padding-left: 30px;
+}
+h1{
+    text-align: center;
+}
+#b1,#b2,#b3{
+    background-color: white;
+    width: 100%;
+}
+#b1{
+    height: 70%;
+    animation-name: bar1;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+#b2{
+    height: 60%;
+    animation-name: bar2;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+#b3{
+    height: 20%;
+    animation-name: bar3;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+@keyframes bar1{
+    0%{height: 100%; background-color: white;}
+    100%{height: 70%; background-color: whitesmoke;}
+
+}
+@keyframes bar2{
+    0%{height: 100%; background-color: white;}
+    100%{height: 60%; background-color: whitesmoke;}
+
+}
+@keyframes bar3{
+    0%{height: 100%; background-color: white;}
+    100%{height: 20%; background-color: whitesmoke;}
+
+}

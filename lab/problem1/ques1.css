@@ -1,0 +1,64 @@
+body{
+    height: auto;
+    margin: 0;
+}
+header h1{
+    background-color: red;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    color:black;
+    margin: 0;
+}
+nav{
+   
+    position: sticky;
+    top: 0;
+    
+}.c1{
+    background-color: gray;
+    margin: 0;
+}
+.c1 li{
+    display: inline-block;
+    padding: 10px;
+}
+.c1 li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: whitesmoke;
+}
+.c1 li:hover{
+    background-color: black;
+}
+
+.l1,.l2{                                       
+    position: absolute;
+    width: auto;
+    display: none;
+    padding: 0;
+    background-color: whitesmoke;
+    top: 43px;
+}
+.c1 li:nth-child(2):hover .l1,
+.c1 li:nth-child(3):hover .l2{
+    display: block;
+}
+
+.l1 li,
+.l2 li{
+    display: block;
+}
+
+.l1 li:hover,
+.l2 li:hover{
+    background-color: gainsboro;
+}
+
+.l1 li a, .l2 li a{
+    color: slateblue;
+    font-size: 15px;
+}
+
+
+
